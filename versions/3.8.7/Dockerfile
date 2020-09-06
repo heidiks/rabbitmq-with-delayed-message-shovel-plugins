@@ -13,3 +13,5 @@ RUN rabbitmq-plugins enable --offline rabbitmq_delayed_message_exchange
 RUN rabbitmq-plugins enable --offline rabbitmq_consistent_hash_exchange
 
 RUN rabbitmq-plugins enable --offline rabbitmq_shovel
+
+RUN rabbitmq-plugins enable --offline rabbitmq_shovel_management
