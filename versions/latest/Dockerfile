@@ -14,4 +14,4 @@ RUN rabbitmq-plugins enable --offline rabbitmq_consistent_hash_exchange
 
 RUN rabbitmq-plugins enable --offline rabbitmq_shovel
 
-RUN rabbitmq-plugins enable rabbitmq_shovel_management
+RUN rabbitmq-plugins enable --offline rabbitmq_shovel_management
